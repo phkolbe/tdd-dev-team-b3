@@ -22,7 +22,7 @@ public class Sparring {
 	private String[] golpes;
 	
 
-	public void recebeGolpes() {
+	public void recebeGolpe() {
 		this.xp -= 3;
 	}
 }

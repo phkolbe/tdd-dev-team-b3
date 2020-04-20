@@ -23,10 +23,10 @@ public class SparringTest {
 	}	
 	
 	@Test
-	public void whenRecebeGolpes_thenDiminuiXp() {
+	public void whenRecebeGolpe_thenDiminuiXp() {
 		int xp = sparring.getXp();
 
-		sparring.recebeGolpes();
+		sparring.recebeGolpe();
 		
 		Assertions.assertTrue(sparring.getXp() < xp);
 	}
