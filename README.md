@@ -3,10 +3,10 @@ Prática para o treinamento de TDD
 
 
 #### Ambiente requerido
-- Java 8 (mínimo)
-- Maven 3
-- Eclipse com suporte ao JUnit 5 (ex. Oxygen)
-- CLI para utilizar o GIT (ex. Git bash)
+1. Java 8 (mínimo)
+2. Maven 3
+3. Eclipse com suporte ao JUnit 5 (ex. Oxygen)
+4. CLI para utilizar o GIT (ex. Git bash)
 
 
 #### Dinâmica
