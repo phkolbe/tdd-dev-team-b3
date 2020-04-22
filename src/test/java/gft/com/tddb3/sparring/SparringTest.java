@@ -9,17 +9,17 @@ import org.junit.jupiter.api.Test;
 
 public class SparringTest {
 
-	static Sparring sparring;
+	private Sparring sparring;
 	
 	@BeforeAll
 	public static void setUpBeforeClass() throws Exception {
-		sparring = Sparring.builder().nome("Spar")
-				                     .xp(50)
-				                     .build();
 	}
 
 	@BeforeEach
 	public void setUp() throws Exception {
+		sparring = Sparring.builder().nome("Sparring 1")
+                                     .xp(50)
+                                     .build();
 	}	
 	
 	@Test
@@ -31,12 +31,14 @@ public class SparringTest {
 		Assertions.assertTrue(sparring.getXp() < xp);
 	}
 	
+	@AfterEach
+	public void tearDown() throws Exception {
+	}	
+	
 	@AfterAll
 	public static void tearDownAfterClass() throws Exception {
 	}
 
-	@AfterEach
-	public void tearDown() throws Exception {
-	}	
+
 
 }
